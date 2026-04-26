@@ -1,0 +1,162 @@
+{
+    "path": "Minecraft.Windows.exe",
+    "switches": [
+        {
+            "title": "Patch to EPPL Mod \n(remove piston push limit)",
+            "patches": [
+                "0x6B25D47 >> 0C >> FF",
+                "0x6B26340 >> 0C >> FF"
+            ]
+        },
+        {
+            "title": "Patch The Overworld height limit (2048)",
+            "patches": [
+                "0x55FAE9 >> 40 >> 00",
+                "0x55FAEA >> 01 >> 08",
+                "0x55FB0B >> 40 >> 00",
+                "0x55FB0C >> 01 >> 08"
+            ]
+        },
+        {
+            "title": "Patch The End height limit (2048)",
+            "patches": [
+                "0x568004 >> 01 >> 08"
+            ]
+        },
+        {
+            "title": "Patch the Nether height limit (2048)",
+            "patches": [
+                "0x55E7A5 >> 80 >> 00",
+                "0x55E7A6 >> 00 >> 08"
+            ]
+        },
+        {
+            "title": "Patch to remove the /fill command limit",
+            "patches": [
+                "0x531DEAA >> 00 >> FF",
+                "0x531DEAB >> 80 >> FF",
+                "0x531DEAC >> 00 >> FF",
+                "0x531DEAD >> 00 >> 7F"
+            ]
+        },
+        {
+            "title": "Patch to remove the /tickingarea command limits",
+            "patches": [
+                "0x6E5CE6F >> E9 >> 90",
+                "0x6E5CE70 >> DC >> 90",
+                "0x6E5CE71 >> 03 >> 90",
+                "0x6E5CE72 >> 00 >> 90",
+                "0x6E5CE73 >> 00 >> 90",
+                "0x6E5CE7E >> E9 >> 90",
+                "0x6E5CE7F >> CD >> 90",
+                "0x6E5CE80 >> 03 >> 90",
+                "0x6E5CE81 >> 00 >> 90",
+                "0x6E5CE82 >> 00 >> 90"
+            ]
+        },
+        {
+            "title": "Patch to remove the /setmaxplayers command limit",
+            "patches": [
+                "0x543AC2A >> 83 >> 90",
+                "0x543AC2B >> FB >> 90",
+                "0x543AC2C >> 28 >> 90",
+                "0x543AC2F >> BB >> 90",
+                "0x543AC30 >> 28 >> 90",
+                "0x543AC31 >> 00 >> 90",
+                "0x543AC32 >> 00 >> 90",
+                "0x543AC33 >> 00 >> 90"
+            ]
+        },
+        {
+            "title": "Patch to disable new play screen",
+            "patches": [
+                "0xC83BCB >> ED >> 2E",
+                "0xC83BCC >> 56 >> 99"
+            ]
+        },
+        {
+            "title": "Patch to disable new settings screen",
+            "patches": [
+                "0xC85F1F >> 9D >> 2E",
+                "0xC85F20 >> 34 >> 99"
+            ]
+        },
+        {
+            "title": "Remove forced Xbox login",
+            "patches": [
+                "0x2528DD8 >> 03 >> 00",
+                "0x12E44D0 >> 0F >> B8",
+                "0x12E44D1 >> B6 >> 01",
+                "0x12E44D2 >> 41 >> 00",
+                "0x12E44D3 >> 1C >> 00",
+                "0x12E44D4 >> C3 >> 00",
+                "0x12E44D5 >> CC >> C3"
+            ]
+        },
+        {
+            "title": "Patch to use static Shared folder, non XBOX user_id/XUID folder",
+            "patches": [
+                "0x185FB7 >> 48 >> 48",
+                "0x185FB8 >> 8B >> 89",
+                "0x185FB9 >> D0 >> 4D",
+                "0x185FBA >> 48 >> 90",
+                "0x185FBB >> 83 >> 4C",
+                "0x185FBC >> 78 >> 89",
+                "0x185FBD >> 18 >> 45",
+                "0x185FBE >> 0F >> 98",
+                "0x185FBF >> 76 >> 4C",
+                "0x185FC0 >> 03 >> 89",
+                "0x185FC1 >> 48 >> 6D",
+                "0x185FC2 >> 8B >> A0",
+                "0x185FC3 >> 10 >> 48",
+                "0x185FC4 >> 48 >> C7",
+                "0x185FC5 >> 89 >> 45",
+                "0x185FC6 >> 4D >> A8",
+                "0x185FC7 >> 90 >> 05",
+                "0x185FC8 >> 4C >> 00",
+                "0x185FC9 >> 89 >> 00",
+                "0x185FCA >> 45 >> 00",
+                "0x185FCB >> 98 >> 48",
+                "0x185FCC >> 4C >> 8D",
+                "0x185FCD >> 89 >> 05",
+                "0x185FCE >> 6D >> E6",
+                "0x185FCF >> A0 >> 82",
+                "0x185FD0 >> 48 >> 0C",
+                "0x185FD1 >> C7 >> 09",
+                "0x185FD2 >> 45 >> 48",
+                "0x185FD3 >> A8 >> 89",
+                "0x185FD4 >> 05 >> 45",
+                "0x185FD5 >> 00 >> B0",
+                "0x185FD6 >> 00 >> 48",
+                "0x185FD7 >> 00 >> C7",
+                "0x185FD8 >> 48 >> 45",
+                "0x185FD9 >> 89 >> B8",
+                "0x185FDA >> 55 >> 06",
+                "0x185FDB >> B0 >> 00",
+                "0x185FDC >> 48 >> 00",
+                "0x185FDD >> 8B >> 00",
+                "0x185FDE >> 40 >> 90",
+                "0x185FDF >> 10 >> 90",
+                "0x185FE0 >> 48 >> 90",
+                "0x185FE1 >> 89 >> 90",
+                "0x185FE2 >> 45 >> 90",
+                "0x185FE3 >> B8 >> 90",
+                "0x1896B1 >> C7 >> 8D",
+                "0x1896B2 >> C1 >> 1D",
+                "0x1896B3 >> FF >> 01",
+                "0x1896B4 >> FF >> 4C",
+                "0x1896B5 >> FF >> 0C",
+                "0x1896B6 >> FF >> 09",
+                "0x1896B7 >> 48 >> 48",
+                "0x1896B8 >> FF >> C7",
+                "0x1896B9 >> C1 >> C1",
+                "0x1896BA >> 80 >> 06",
+                "0x1896BB >> 3C >> 00",
+                "0x1896BC >> 0B >> 00",
+                "0x1896BD >> 00 >> 00",
+                "0x1896BE >> 75 >> 90",
+                "0x1896BF >> F7 >> 90"
+            ]
+        }
+    ]
+}
