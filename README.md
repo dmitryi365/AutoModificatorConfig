@@ -1,17 +1,17 @@
 # Configs for "Auto Modificator" (Minecraft Bedrock) | Конфиги для "Auto Modificator"
 
-*[🇷🇺 Нажмите здесь, чтобы перейти к русской версии](#русская-версия)*
+*🇷🇺 Гайд на русском языке находится чуть ниже*
 
 ---
 
-## 🇬🇧 English Version
+## 🇬🇧 English
 
 Configs for the **Auto Modificator** tool for different versions of Minecraft Bedrock Edition.
 
 ### How to Install
 
 1. Locate your Minecraft game folder (the folder containing the `Minecraft.Windows.exe` file).
-2. Download the `Auto_Modificator_llvm_x64.exe` file [from this repository](https://github.com/dmitryi365/AutoModificatorConfig) (Author: [Max-RM](https://github.com/Max-RM/AutoModificator)) and place it into your game folder.
+2. Download the file [Auto_Modificator_llvm_x64.exe](https://github.com/dmitryi365/AutoModificatorConfig/blob/main/Auto_Modificator_llvm_x64.exe) (Author: [Max-RM](https://github.com/Max-RM/AutoModificator)) and place it into your game folder.
 3. Download the configuration file that matches your game version from [this repository](https://github.com/dmitryi365/AutoModificatorConfig) (for example, `v1.26.13.1.json`).
 4. Move the downloaded JSON file into the game folder alongside the executable.
 5. Rename the downloaded JSON file to `config.json`.
@@ -40,16 +40,19 @@ You can find the configuration files for the following versions in [this reposit
 * **Remove forced Xbox login**
 * **Patch to use static Shared folder, non XBOX user_id/XUID folder**
 
+### Discord
+Join our Discord server: https://discord.gg/vCGktX4Gt8
+
 ---
 
-## 🇷🇺 Русская версия 
+## 🇷🇺 Русский язык
 
 Конфиги под **Auto Modificator** для разных версий Minecraft Bedrock Edition.
 
 ### Как установить
 
 1. Найдите папку с установленной игрой (папка, в которой находится файл `Minecraft.Windows.exe`).
-2. Скачайте файл `Auto_Modificator_llvm_x64.exe` [из этого репозитория](https://github.com/dmitryi365/AutoModificatorConfig) (автор [Max-RM](https://github.com/Max-RM/AutoModificator)) и переместите его в эту папку.
+2. Скачайте файл [Auto_Modificator_llvm_x64.exe](https://github.com/dmitryi365/AutoModificatorConfig/blob/main/Auto_Modificator_llvm_x64.exe) (автор [Max-RM](https://github.com/Max-RM/AutoModificator)) и переместите его в эту папку.
 3. Скачайте файл конфигурации, соответствующий вашей версии игры, из [этого репозитория](https://github.com/dmitryi365/AutoModificatorConfig) (например, `v1.26.13.1.json`).
 4. Поместите скачанный JSON-файл в папку с игрой.
 5. Переименуйте этот скачанный файл в `config.json`.
@@ -77,3 +80,6 @@ You can find the configuration files for the following versions in [this reposit
 * **Patch to disable new settings screen**
 * **Remove forced Xbox login**
 * **Patch to use static Shared folder, non XBOX user_id/XUID folder**
+
+### Discord
+Также заходите в наш Discord сервер: https://discord.gg/vCGktX4Gt8
