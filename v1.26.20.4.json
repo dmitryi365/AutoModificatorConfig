@@ -7,7 +7,7 @@
                 "0x306CF62 >> 70 >> 2E",
                 "0x306CF63 >> 6C >> 99"
             ]
-        }
+        },
         {
             "title": "Patch to disable new settings screen",
             "patches": [
