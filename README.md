@@ -24,6 +24,7 @@ You can find the configuration files for the following versions in [this reposit
 
 * [v1.26.13.1](https://github.com/dmitryi365/AutoModificatorConfig/blob/main/v1.26.13.1.json)
 * [v1.26.20.4](https://github.com/dmitryi365/AutoModificatorConfig/blob/main/v1.26.20.4.json)(Incomplete / Under development)
+* [v1.26.52.3](https://github.com/dmitryi365/AutoModificatorConfig/blob/main/v1.26.52.3.json)
 
 *(Note: Ensure you download the exact config version that matches your installed Minecraft Bedrock client.)*
 
@@ -66,6 +67,7 @@ Join our Discord server: https://discord.gg/vCGktX4Gt8
 
 * [v1.26.13.1](https://github.com/dmitryi365/AutoModificatorConfig/blob/main/v1.26.13.1.json)
 * [v1.26.20.4](https://github.com/dmitryi365/AutoModificatorConfig/blob/main/v1.26.20.4.json)(Не полная)
+* [v1.26.52.3](https://github.com/dmitryi365/AutoModificatorConfig/blob/main/v1.26.52.3.json)
 
 *(Примечание: Убедитесь, что вы скачиваете конфиг, который точно соответствует вашей установленной версии Minecraft Bedrock.)*
 
