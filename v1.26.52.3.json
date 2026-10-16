@@ -1,0 +1,135 @@
+{
+    "enableAll": true,
+    "enableRAM": true,
+    "RAMWarningDisabled": true,
+    "path": "Minecraft.Windows.exe",
+    "switches": [
+        {
+            "title": "Patch to EPPL Mod (remove piston push limit)",
+            "patches": [
+                "0x4AE25B4 >> 0C >> FF",
+                "0x4AE43D9 >> 0D >> FF"
+            ]
+        },
+        {
+            "title": "Patch The Overworld height limit (2048)",
+            "patches": [
+                "0xC9D7BF3 >> 8D >> BB",
+                "0xC9D7BF4 >> 58 >> 00",
+                "0xC9D7BF5 >> 04 >> 08",
+                "0xC9D7BF6 >> C1 >> 00",
+                "0xC9D7BF7 >> E3 >> 00",
+                "0xC9D7BF8 >> 06 >> 90"
+            ]
+        },
+        {
+            "title": "Patch The End height limit (2048)",
+            "patches": [
+                "0xC9D5EEB >> 80 >> 00",
+                "0xC9D5EEC >> 00 >> 08"
+            ]
+        },
+        {
+            "title": "Patch the Nether height limit (2048)",
+            "patches": [
+                "0x697B003 >> 01 >> 08"
+            ]
+        },
+        {
+            "title": "Patch to remove the /fill command limit",
+            "patches": [
+                "0xB6664E3 >> 01 >> FF",
+                "0xB6664E4 >> 80 >> FF",
+                "0xB6664E5 >> 00 >> FF",
+                "0xB6664E6 >> 00 >> 7F"
+            ]
+        },
+        {
+            "title": "Patch to remove the /tickingarea command limits",
+            "patches": [
+                "0x351D136 >> 09 >> FF",
+                "0x351D13E >> 0F >> 90",
+                "0x351D13F >> 87 >> 90",
+                "0x351D140 >> CB >> 90",
+                "0x351D141 >> 01 >> 90",
+                "0x351D142 >> 00 >> 90",
+                "0x351D143 >> 00 >> 90",
+                "0x351D22A >> 64 >> FF",
+                "0x351D22B >> 0F >> 90",
+                "0x351D22C >> 8F >> 90",
+                "0x351D22D >> DE >> 90",
+                "0x351D22E >> 00 >> 90",
+                "0x351D22F >> 00 >> 90",
+                "0x351D230 >> 00 >> 90"
+            ]
+        },
+        {
+            "title": "Patch to remove the /setmaxplayers command limit",
+            "patches": [
+                "0xB699D4F >> 0F >> 8B",
+                "0xB699D50 >> 4C >> C8",
+                "0xB699D51 >> C8 >> 90"
+            ]
+        },
+        {
+            "title": "Patch to enable Brison Mod (Infinity spreading liquids)",
+            "patches": [
+                "0x345BD6E >> 44 >> 31",
+                "0x345BD6F >> 89 >> ED",
+                "0x345BD70 >> CD >> 90"
+            ]
+        },
+        {
+            "title": "Patch to disable sponge limits",
+            "patches": [
+                "0xA8BBD66 >> 40 >> FF",
+                "0xA8BBD74 >> 05 >> FF"
+            ]
+        },     
+        {
+            "title": "Patch to disable new play screen",
+            "patches": [
+                "0x42585A >> 70 >> 2E",
+                "0x42585B >> 6C >> 99"
+            ]
+        },
+        {
+            "title": "Patch to disable new settings screen",
+            "patches": [
+                "0x4268CD >> 73 >> 2E",
+                "0x4268CE >> 65 >> 99"
+            ]
+        },
+        {
+            "title": "Remove forced Xbox login",
+            "patches": [
+                "0x1B56647 >> 04 >> 00",
+
+                "0x1B55F70 >> 75 >> EB",
+                 
+                "0xB3DBEF0 >> 0F >> B8",
+                "0xB3DBEF1 >> B6 >> 01",
+                "0xB3DBEF2 >> 41 >> 00",
+                "0xB3DBEF3 >> 1C >> 00",
+                "0xB3DBEF4 >> C3 >> 00",
+                "0xB3DBEF5 >> CC >> C3",
+
+                "0x5DDD95C >> 75 >> 90",
+                "0x5DDD95D >> 70 >> 90"
+
+            ]
+        },
+        {
+            "title": "Patch to use static Shared folder, non XBOX user_id/XUID folder",
+            "patches": [
+                "0x92973 >> 48 >> 48",
+                "0x92974 >> 89 >> 8D",
+                "0x92975 >> EF >> 3D",
+                "0x92976 >> 49 >> FC",
+                "0x92977 >> 0F >> 93",
+                "0x92978 >> 45 >> BF",
+                "0x92979 >> FF >> 0E"
+            ]
+        }
+    ]
+}
